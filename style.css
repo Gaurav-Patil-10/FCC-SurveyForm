@@ -1,14 +1,21 @@
 html{
     font-family: 'Noto Sans JP', sans-serif;
-    
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg) ;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.frame{
+    margin: 0px;
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    padding: 10px;
+}
+
+.frame:after{
+    
+    
 }
 
 
@@ -19,7 +26,31 @@ body{
     color: white;
     width: 55%;
     margin: auto;
+    justify-content: center;
 }
+
+.title-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    position: inherit;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#description{
+    position: relative;
+    color: white;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
 
 #name-label{
     margin-top: 25px;
