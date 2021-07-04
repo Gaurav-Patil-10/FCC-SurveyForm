@@ -50,7 +50,7 @@
             <label for="Not-Sure" id="Not-Sure-label">Not Sure</label></div>
 
 
-            <label for="dropdown-2" id='' >What is your favorite feature of freeCodeCamp?</label>
+            <label for="dropdown-2" id='dropdown-2-label' >What is your favorite feature of freeCodeCamp?</label>
             <select name="favourite-feature" id='dropdown-2' placeholder="Select an option">
                 <option value="Select an option" selected disabled >Select an option</option>
                 <option value="Challenges">Challenges</option>
@@ -59,40 +59,43 @@
                 <option value="Open Source">Open Source</option>
             </select>
 
-            <input type="checkbox" id='Front-End Projects' name='improvement' value="Front-End Projects">
-            <label for="improvement">Front-End Projects</label>
-
+            <p>What would you like to see improved? (Check all that apply)
+            </p>
+            <div class="Labels">
+            <input type="checkbox" id='Front-End-Projects' name='improvement' value="Front-End Projects">
+            <label for="Front-End Projects" id="Front-end-label"><span>Front-End Projects</span></label>
+                <br>
             <input type="checkbox" id='Back-End Projects' name='improvement' value="Back-End Projects">
-            <label for="improvement">Back-End Projects</label>
-
+            <label for="Back-End Projects">Back-End Projects</label>
+            <br>
             <input type="checkbox" id='Data Visualisations' name='improvement' value="Data Visualisations">
-            <label for="improvement">Data Visualisations</label>
-
+            <label for="Data Visualisations">Data Visualisations</label>
+            <br>
             <input type="checkbox" id='Challenges' name='improvement' value="Challenges">
-            <label for="improvement">Challenges</label>
-
+            <label for="Challenges">Challenges</label>
+            <br>
             <input type="checkbox" id='Open Source Community' name='improvement' value="Open Source Community">
             <label for="improvement">Open Source Community</label>
-
+            <br>
             <input type="checkbox" id='Gitter help rooms' name='improvement' value="Gitter help rooms">
             <label for="improvement">Gitter help rooms</label>
-
+            <br>
             <input type="checkbox" id='Videos' name='improvement' value="Videos">
             <label for="improvement">Videos</label>
-
+            <br>
             <input type="checkbox" id='City Meetups' name='improvement' value="City Meetups">
             <label for="improvement">City Meetups</label>
-
+            <br>
             <input type="checkbox" id='Wiki' name='improvement' value="Wiki">
             <label for="improvement">Wiki</label>
-
+            <br>
             <input type="checkbox" id='Forums' name='improvement' value="Forum">
             <label for="improvement">Forum</label>
-            
+            <br>
             <input type="checkbox" id='Additional Courses' name='improvement' value="Additional Courses">
             <label for="improvement">Additional Courses</label>
-
-
+            <br>
+            </div>
 
             <label for="textarea">Any comments or suggestions?</label>
             <input type="text" id='textarea' placeholder="Enter Your Comments here">
